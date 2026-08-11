@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 
-function footer() {
+function Footer() {
   return (
    <>
    <footer className="bg-white border-y">
@@ -37,7 +37,7 @@ function footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
+                                        href="https://github.com/1024sarvesh"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
@@ -73,8 +73,8 @@ function footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                        <a href="https://sarveshkumar.com/" className="hover:underline">
+                            sarveshkumar
                         </a>
                         . All Rights Reserved.
                     </span>
@@ -158,9 +158,10 @@ function footer() {
                     </div>
                 </div>
             </div>
+
         </footer>
    </>
   )
 }
 
-export default footer
+export default Footer
